@@ -710,7 +710,7 @@ class ReownAppKitModal
         startWidget = null;
       }
     }
-    return _showModalView(startWidget: startWidget);
+    return _showModalView(startWidget: startWidget, context: context);
   }
 
   final List<Key> _allowedScreensWhenConnected = [
